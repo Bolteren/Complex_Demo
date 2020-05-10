@@ -7,6 +7,8 @@ namespace Complex_Demo
     internal class Complex
     {
         private double iReal, iImag;
+        public Complex() : this(0, 0)
+            {}
         public Complex(double iReal, double iImag)
         {
             this.iReal = iReal;
