@@ -54,7 +54,7 @@ namespace Complex_Demo
         {
             string complex_to_string; 
             if (this.iImag < 0)
-                complex_to_string = $"[{iReal} - {-iImag}i)";
+                complex_to_string = $"[{iReal} - {-iImag}i]";
             else complex_to_string = $"[{iReal} + {iImag}i]";
             return complex_to_string;
         }
