@@ -47,7 +47,7 @@ namespace Complex_Demo
         }
         public static Complex operator /(Complex z1, double n)
             => new Complex((z1.iReal * n) / Math.Pow(n, 2), (n * z1.iImag) / Math.Pow(n, 2));
-        public static Complex operator /(double n, Complex z1) //TODU: Поправить! Так это не работает!!!!
+        public static Complex operator /(double n, Complex z1)
             => new Complex( (n*z1.iReal)/(Math.Pow(z1.iReal,2) + Math.Pow(z1.iImag, 2)) , (-n * z1.iImag)/(Math.Pow(z1.iReal, 2) + Math.Pow(z1.iImag, 2)));
 
         public override string ToString()
