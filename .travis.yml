@@ -1,2 +1,2 @@
-language: csharp  
-os: windows
+language: csharp
+solution: solution-name.sln
